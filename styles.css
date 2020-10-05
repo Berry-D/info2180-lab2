@@ -1,0 +1,106 @@
+Donald Berry 620130142
+body {
+	font-size: 18px
+	color:  #2D3748;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+}
+
+
+header{
+
+	background-color: #63B3ED;
+	color: #FFFFFF;
+	padding:10px;
+	display: flex;
+	display: inline-block;
+	text-align: center;
+	align-items: center;
+  grid-area: header;
+
+}
+ header h1{
+	font-size: 36px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	}
+	article h2 {
+		font-size: 32px;
+		color: #48BB78;
+	}	section h3 {
+			font-family: Georgia, 'Times New Roman', Times, serif;
+			color: #48BB78;
+		}
+		header h3 {
+			font-family: Georgia, 'Times New Roman', Times, serif;
+				color: #000000;
+		}
+		img{
+
+		  width: 200px;
+		  height: 200px;
+		  padding:  10px;
+			border-radius: 50%;
+		}
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		#calender{
+			color: #718096;
+		}
+		#about{
+			background-color: #E2E8F0;
+			padding: 18px;
+		}
+		#about h3{
+			color: #000000;
+		}
+		a{
+			color: #4299E1;
+		}
+		footer {
+			background-color: #2C5282;
+			color:#FFFFFF;
+		}
+		hr{
+			color: #718096;
+		}
+		.left_side{
+			float:left;
+		}
+		.right_side{
+			float:right;
+		}
+	.container{
+		display: grid;
+		grid-gap: 19px;
+
+	}
+	#header{
+		grid-column: 1/4;
+		grid-row:1;
+		padding:19;
+	}
+	#main{
+		grid-column: 1/3;
+		grid-row: 2;
+		padding: 85px;
+		padding-top: 0;
+
+	}
+	.aside{
+		color: #4299E1;
+
+	}
+	#aside{
+		grid-column: 3;
+		grid-row: 2;
+		padding: 85px;
+
+	}
+
+	#footer{
+		grid-column: 1/4;
+		grid-row: 3;
+
+	}
